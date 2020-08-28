@@ -2,7 +2,7 @@ package com.Bishal.Pratice;
 
 
 public class MySweetProgram {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         /*Dscanner imp = new Dscanner();
         System.out.print("Enter a string to show it in next line:");
@@ -10,6 +10,9 @@ public class MySweetProgram {
         System.out.println("output :"+someString);
         */
         Dscanner imp = new Dscanner();
+        System.out.print("Enter a string to show it in next line: ");
+        String userInput = imp.nextChar("");
+        System.out.println("You have Entered : "+ userInput);
 
            /*String a="";
            char b;
@@ -18,4 +21,5 @@ public class MySweetProgram {
            }
             System.out.println(a);*/
     }
+
 }
